@@ -1,0 +1,54 @@
+nav, nav .lorem{
+    background-color: gray;
+    color: white;
+}
+
+nav .nav-link.active,nav a{
+    color: white;
+}
+
+.custom-toggler {
+    border-color: white; /* Cambia el color del borde */
+}
+
+
+nav .nav-link{
+    color: lightgray;
+}
+
+
+#title{
+    padding-top: 5%;
+}
+
+.col-md-6, .col-sm-12, .col-lg-4 {
+    text-align: justify;
+    background-color: #f8f9fa;
+  }
+
+  .row .opciones{
+    padding-top: 2%;;
+  }
+
+  .opciones {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: none; /* Remover la imagen de fondo predeterminada */
+}
+
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after,
+.custom-toggler .navbar-toggler-icon span {
+    content: '';
+    display: block;
+    width: 25px; /* Ancho de las líneas */
+    height: 3px; /* Altura de las líneas */
+    background-color: white; /* Color de las líneas */
+    margin: 5px auto; /* Espaciado entre líneas */
+}
+
